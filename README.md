@@ -1,3 +1,6 @@
-# My Awesome Book
+# 概述
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+OTA系统基于开源项目Eclipse Hawkbit二次开发，后者是面向大规模IoT网络终端软件/固件升级的企业级解决方案。得益于Hawkbit良好的架构与设计，本OTA系统支持升级灰度发布、紧急撤回、终端自动注册、更新内容断点续传等功能。
+
+
+
