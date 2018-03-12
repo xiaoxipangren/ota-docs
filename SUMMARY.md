@@ -8,4 +8,8 @@
 * [安全](an-quan.md)
   * [鉴权](an-quan/jian-quan.md)
   * [授权](an-quan/shou-quan.md)
+* [接口文档](apiwen-dang.md)
+  * [Management UI](apiwen-dang/management-ui.md)
+  * [Management API](apiwen-dang/management-api.md)
+  * [DDI API](apiwen-dang/ddi-api.md)
 
