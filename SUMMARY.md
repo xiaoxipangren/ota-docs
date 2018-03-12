@@ -5,4 +5,7 @@
   * [技术架构](architecture/ji-zhu-jia-gou.md)
   * [功能架构](architecture/gong-neng-jia-gou.md)
 * [核心概念](he-xin-gai-nian.md)
+* [安全](an-quan.md)
+  * [鉴权](an-quan/jian-quan.md)
+  * [授权](an-quan/shou-quan.md)
 
