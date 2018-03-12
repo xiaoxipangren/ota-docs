@@ -2,6 +2,6 @@
 
 * [概述](README.md)
 * 系统架构
-  * [技术架构](chapter1/ji-zhu-jia-gou.md)
-  * [功能架构](chapter1/gong-neng-jia-gou.md)
+  * [技术架构](architecture/ji-zhu-jia-gou.md)
+  * [功能架构](architecture/gong-neng-jia-gou.md)
 
