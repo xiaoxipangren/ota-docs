@@ -11,6 +11,5 @@
 * [接口文档](apiwen-dang.md)
   * [Management UI](apiwen-dang/management-ui.md)
   * [Management API](apiwen-dang/management-api.md)
-    * [Target](apiwen-dang/management-api/target.md)
   * [DDI API](apiwen-dang/ddi-api.md)
 
