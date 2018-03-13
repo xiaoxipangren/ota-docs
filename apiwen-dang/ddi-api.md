@@ -8,7 +8,7 @@ DDI API使用controllerId这一术语来进行终端身份识别。
 
 由于历史原因，DDI API和终端拥有不同的状态机和状态信息。为了确保DDI和终端保持兼容定义此状态映射。
 
-The_DDI_API allows the device to provide the following feedback messages:
+The\_DDI\_API allows the device to provide the following feedback messages:
 
 | DDI 执行状态 | 说明 | 映射的Action类型 |
 | :--- | :--- | :--- |
@@ -27,7 +27,6 @@ The_DDI_API allows the device to provide the following feedback messages:
 
 ```js
 GET /{tenant}/controller/v1/{controllerId}
-
 ```
 
 服务器在轮询接口的应答中会加入动作链接。一个可能的动作链接是一个部署命令：
@@ -50,14 +49,12 @@ _响应示例_
         }
     }
 }
-
 ```
 
 ## 升级接口 {#deployment-base-resource}
 
 ```
 GET /{tenant}/controller/v1/{controllerId}/deploymentBase/{id}
-
 ```
 
 _响应示例_
@@ -102,7 +99,6 @@ _响应示例_
             ]
     }
 }
-
 ```
 
 ## 升级反馈接口 {#deployment-feedback-resource}
@@ -110,7 +106,6 @@ _响应示例_
 ```
 POST /{tenant}/controller/v1/{controllerId}/deploymentBase/{id}/feedback
 Content-Type: application/json
-
 ```
 
 升级成功反馈示例
@@ -127,7 +122,6 @@ Content-Type: application/json
         }
     }
 }
-
 ```
 
 正在升级反馈示例
@@ -150,7 +144,6 @@ Content-Type: application/json
         ]
     }
 }
-
 ```
 
 升级错误反馈示例
