@@ -14,5 +14,5 @@
   * [DDI API](apiwen-dang/ddi-api.md)
 * [指引](jiao-cheng.md)
   * [系统管理指引](jiao-cheng/xi-tong-guan-li.md)
-  * 终端指引
+  * [终端指引](jiao-cheng/zhong-duan-zhi-yin.md)
 

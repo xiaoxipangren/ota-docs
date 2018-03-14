@@ -32,6 +32,7 @@
 * 拖放一个更新至终端上以启动一个推送
 
 * 拖动更新、标签和终端至删除图标以删除
+
 * 选中终端以查看其更新历史
 * 终端批量上传：通过一个CSV文件批量导入终端信息，格式每行两列属性\(ControllerID,Target Name\)
 
@@ -49,7 +50,7 @@
 * 浏览、创建、删除、修改更新类型
 * 浏览、创建、删除、修改软件模块
 * 浏览、创建、删除、修改模块类型
-* 分配模块至更新
+* 分配模块至更新\(拖动模块至更新可完成分配\)
 
 # ![](/assets/distribution_mgmt.png)
 
@@ -107,11 +108,13 @@
 * 字段：待过虑资源的属性名
 * 值：相应的属性值
 * 基本运算符：简单查询运算符，支持以几种：
+
   * ==：等于
   * !=：不等于
   * =IN=：属于某一集合，如"name=IN=\(target1,target2\)
 
 * 组合运算符：
+
   * and
   * or
   * 通配符 \*
@@ -130,6 +133,5 @@
 | \(updatestatus!=In\_sync or updatestatus!=error\) and name==\*SHC1\* | 查询名称包含SHC1且更既不是In\_sync也不是error的终端 |
 | \(updatestatus!=error or updatestatus!=pending\) and \(name==\*CCU\* or description==\*CCU\*\) | 查询名称或者描述中包含CCU且更新状态既不是error也不是pending的终端 |
 
-  
 ![](/assets/target_filter.png)
 
