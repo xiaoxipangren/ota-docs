@@ -12,4 +12,7 @@
   * [Management UI](apiwen-dang/management-ui.md)
   * [Management API](apiwen-dang/management-api.md)
   * [DDI API](apiwen-dang/ddi-api.md)
+* [指引](jiao-cheng.md)
+  * [系统管理指引](jiao-cheng/xi-tong-guan-li.md)
+  * 终端指引
 
