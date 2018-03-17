@@ -4,13 +4,11 @@
 
 设备向服务器请求时，需要附加授权请求头，有两种方式：
 
-GatewayToken方式      
+* GatewayToken方式
+  * "Authorization":"GatewayToken "+${gatewaytoken}
 
-* * "Authorization":"GatewayToken "+${gatewaytoken}
-
-TargetToken方式
-
-*  "Authorization":"TargetToken "+${targettoken}
+* TargetToken方式
+  * "Authorization":"TargetToken "+${targettoken}
 
 注意GatewayToken和TargetToken后需空一格，且两个单词大小写敏感。
 
